@@ -1,0 +1,18 @@
+.cards {
+    display: flex;
+    gap: 96px;
+    margin-left: 96px;
+    margin-top: 50px;
+}
+.img_pizza {
+    width: 150px;
+    height: auto;
+}
+#pizza7{
+    margin-right: 100px;
+}
+@media (max-width: 600px){
+    .cards {
+        flex-direction: column;
+    }
+}
